@@ -70,7 +70,6 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://geradorfresquinho.netlify.app"),
   verification: {
-    google: "google-site-verification",
     other: {
       me: ["tsm20@gmail.com"],
     },
