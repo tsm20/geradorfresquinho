@@ -86,6 +86,10 @@ export default function RootLayout({
     <html lang="pt-PT" suppressHydrationWarning>
       <head>
         <meta name="robots" content="index, follow" />
+        <meta
+          name="google-site-verification"
+          content="a4tpvY4XfT-41eBHnrQfthipDCI42g-OCx1N-zydU7E"
+        />
         <link
           rel="sitemap"
           type="application/xml"
