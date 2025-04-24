@@ -110,7 +110,7 @@ export function AppSidebar({ className }: AppSidebarProps) {
         </SidebarMenu>
       </SidebarContent>
       <SidebarFooter className="mt-6 md:mt-0 px-4 py-2">
-        <div className="flex justify-center gap-2">
+        <footer className="flex justify-center gap-2">
           {/* <Avatar
             className="h-10 w-10"
             onClick={() => {
@@ -137,7 +137,7 @@ export function AppSidebar({ className }: AppSidebarProps) {
             </a>
           </div>
           <p className="mt-4 text-xs text-muted-foreground"></p>
-        </div>
+        </footer>
       </SidebarFooter>
     </>
   );

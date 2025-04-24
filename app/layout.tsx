@@ -101,16 +101,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <SidebarProvider>
-            <div className="flex min-h-screen">
+            <div className="flex flex-1 min-h-screen">
               <AppSidebar className="w-72 min-w-72 border-r" />
               <SidebarInset className="flex-1 flex flex-col min-h-screen">
                 <main className="flex-1">{children}</main>
-                <footer className="border-t p-4 text-center text-sm text-muted-foreground">
-                  <p>
-                    &copy; 2024 Gerador Fresquinho. Todos os direitos
-                    reservados.
-                  </p>
-                </footer>
               </SidebarInset>
             </div>
           </SidebarProvider>
